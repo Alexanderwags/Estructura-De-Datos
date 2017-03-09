@@ -6,8 +6,19 @@ void unaFuncion();
 void Sumar(int, int);
 
 int main(int argc, char** argv) {
+	// VAriables
+	int a=0, b=0;
+	
 	cout "Hola Mundo"<<endl;
 	cin.get();
+	system("cls");
+	cout<<"Indica el valor de a: ";
+	cin>>a;
+	cout<<"Indica el valor de b: ";
+	cin>>b;
+	Sumar(a,b);
+	cin.get();
+	
 	return 0;
 }
 
