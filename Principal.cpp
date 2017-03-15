@@ -4,6 +4,7 @@ using namespace std;
 
 void unaFuncion();
 void Sumar(int, int);
+int Contador (int);
 
 int main(int argc, char** argv) {
 	// VAriables
@@ -33,4 +34,16 @@ void Sumar(int a, int b)
 	c = a+ b;
 	cout <<"El resultado de sumar "<<a<<"+"<<b<<" es: "<<c<<endl;
 	
+}
+
+int Contador (int n)
+{
+	//variables
+	int x;
+	
+	for (x=0; x<n; x++){
+		cout<<<x<<" ";
+	}
+	cin<<endl;
+	return 1;
 }
